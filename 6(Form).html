@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form autocomplete="off">
+
+        <fieldset>
+
+            <legend>User Information</legend>
+
+            <label for="Firstname">Firstname</label><br>
+            <input type="text" id="Firstname" placeholder="Enter Firstname"><br>
+
+            <label for="Lastname">Lastname</label><br>
+            <input type="text" id="Lastname" placeholder="Enter Lastname"><br>
+
+            <label for=:Email">Email</label><br>
+            <input type="email" id="Email" placeholder="Enter email"><br>
+
+            <label for="Gender">Gender</label><br>
+            <input type="radio" name="Gender" id="Gender" value="male" checked>Male
+            <input type="radio" name="Gender" id="Gender" value="female">Female
+            <input type="radio" name="Gender" id="Gender" value="others">Others
+            <br>
+
+            <label for="Subject">Choose any two</label><br>
+            <input type="checkbox" name="Subject" id="Subject" value="HTML">HTML
+            <input type="checkbox" name="Subject" id="Subject" value="Java">Java
+            <input type="checkbox" name="Subject" id="Subject" value="Python">Python
+            <input type="checkbox" name="Subject" id="Subject" value="Mern">Mern
+            <br>
+
+            <label for="District">District</label><br>
+            <select name="District" id="District">
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Pokhara">Pokhara</option>
+                <option value="Manang">Kathmandu</option>
+                <option value="Mustang">Kathmandu</option>
+                <option value="Birgunj">Kathmandu</option>
+            </select>
+            <br>
+
+            <label for="Phone">Phone</label><br>
+            <input type="number" name="phone" id="Phone"><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" name="dob" id="dob"><br>
+
+            <label for="msg">Message</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+
+            <label for="file">File</label><br>
+            <input type="file" name="file" id="file"><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+
+            <input type="submit" name="submit" value="Send">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
